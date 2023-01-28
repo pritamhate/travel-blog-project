@@ -114,7 +114,7 @@ body {
     position: relative;
 }
 
-span.postCounr {
+.allCategories ul li a span.postCounr {
     color: #b48d62;
     font-size: 35px;
     width: 65px;
@@ -128,4 +128,44 @@ span.postCounr {
     right: -55px;
     top: 0;
     transform: scale(0.7);
+}
+
+.categoryList ul {
+    margin: 0;
+    padding: 0;
+}
+
+.categoryList ul li {
+    list-style-type: none;
+    margin: 0 0 5px;
+}
+
+.categoryList ul li a {
+    color: rgb(66 35 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.categoryList ul li a span.postCounr {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.tagsList ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tagsList ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgba(66,35,0,.1);
+    border-radius: 20px;
+    color: rgb(66 35 0);
+    text-decoration: none;
 }
